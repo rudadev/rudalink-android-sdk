@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.rudalink",
+    "module": "rudalink-sdk",
+    "version": "1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rudalink-sdk-1.0.1.aar",
+          "url": "rudalink-sdk-1.0.1.aar",
+          "size": 128372,
+          "sha512": "c5f8f99dda58e61ac42b667a3fcbb5197b964f9afbcff18419b734be3d944f963d7535e0f32d7008bfe6011d92f313a9f5f7f129bdda08e41642dd7112c5028d",
+          "sha256": "6fb8305af8547528d7e0e91e76455dbd2725f5fb4f3f52d8931fe769d3261620",
+          "sha1": "39c7e891e5e54b93cf109884af41da7f80b437b6",
+          "md5": "5ea3cb671b26e6b49308c143106f0fd5"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "com.android.installreferrer",
+          "module": "installreferrer",
+          "version": {
+            "requires": "2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rudalink-sdk-1.0.1.aar",
+          "url": "rudalink-sdk-1.0.1.aar",
+          "size": 128372,
+          "sha512": "c5f8f99dda58e61ac42b667a3fcbb5197b964f9afbcff18419b734be3d944f963d7535e0f32d7008bfe6011d92f313a9f5f7f129bdda08e41642dd7112c5028d",
+          "sha256": "6fb8305af8547528d7e0e91e76455dbd2725f5fb4f3f52d8931fe769d3261620",
+          "sha1": "39c7e891e5e54b93cf109884af41da7f80b437b6",
+          "md5": "5ea3cb671b26e6b49308c143106f0fd5"
+        }
+      ]
+    }
+  ]
+}
